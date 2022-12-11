@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Votação</title>
+</head>
+<body>
+    <div class="sexo">
+        <h2>Qual o seu sexo</h2>
+        <button class="sex" id="masc" value="M">
+            <img src="image/menino.png">
+        </button>
+        <button class="sex " id="fem" value="F">
+            <img src="image/menina.jpg" alt="">
+        </button>
+        <button type="submit" class="btn" id="btn_sex" disabled>Votar</button>
+    </div>
+
+    <div class="int">
+        <h2>Qual a sua opção de itinerário formativo</h2>
+        <button id="linguagens" class="intin" value="Linguagens">
+           linguagens: Línuga Portuguesa, Educação Física, Inglês e Artes 
+        </button>
+        <button id="humanas" class="intin" value="Humanas">
+            Ciências Humanas: Hisória, Geografia, Filosofia e Sociologia
+        </button>
+        <button id="natureza" class="intin" value="Natureza">
+            Ciências da Natureza: Biologia, Química e Física
+        </button>
+        <button id="exatas" class="intin" value="Matematica">
+            Matemática e suas tecnologias
+        </button>
+        
+        
+        <button type="submit" class="btn" id="btn_int" disabled>Votar</button>
+    </div>
+
+        <div class="fim">
+            <h2>FIM</h2>
+            <div class="btn-fim">
+                <button class="btns-fim" id="votar">Votar novamente</button><button class="btns-fim">Resultado</button>
+            </div>
+            
+        </div>
+
+        <script src="js/function.js"></script>
+</body>
+</html>
